@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
   <head><script src="/docs/5.3/assets/js/color-modes.js"></script>
@@ -9,19 +8,9 @@
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.118.2">
     <title>Album example · Bootstrap v5.3</title>
-   
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
-<link href="<?= get_template_directory_uri() ?>/assets/css/bootstrap.min.css" rel="stylesheet">
-<link href="<?= get_template_directory_uri() ?>/assets/css/main.css" rel="stylesheet">
-
-
-    <style>
-      
-    </style>
-
-    
+    <?php wp_head(); ?>
   </head>
   <body>
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
@@ -266,7 +255,7 @@
     <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="/docs/5.3/getting-started/introduction/">getting started guide</a>.</p>
   </div>
 </footer>
-<script src="<? get_template_directory_uri() ?>/assets/js/bootstrap.bundle.min.js"></script>
 
+    <?php wp_footer(); ?>
     </body>
 </html>
